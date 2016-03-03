@@ -1,0 +1,10 @@
+<% if params[:controller] == 'home' %>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>D for Doctor</h1>
+        <p>Put description here.</p>
+        <p><%= link_to raw('Learn more &raquo;'), about_path, class: "btn btn-primary btn-lg" %></p>
+        <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+      </div>
+    </div>
+<% end %>
